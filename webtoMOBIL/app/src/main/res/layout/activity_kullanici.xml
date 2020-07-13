@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KULLANICI">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_kullanici"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="netix.galeri.com.stajyurdumobil.KULLANICI">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:weightSum="10">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="213dp"
+                    android:layout_alignBaseline="@+id/button4"
+                    android:layout_alignBottom="@+id/button4"
+                    android:layout_alignParentStart="true"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:id="@+id/textView23"
+                        android:layout_width="304dp"
+                        android:layout_height="40dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="15dp"
+                        android:gravity="center"
+                        android:text="Kullanıcı Sözleşmesi"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="30sp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button2"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/button2"
+                        android:background="@android:color/transparent"
+                        android:text="İlanlar"
+                        android:textColor="@android:color/background_light"
+                        tools:gravity="left|center_vertical" />
+
+                    <Button
+                        android:id="@+id/button4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button3"
+                        android:layout_alignParentTop="true"
+                        android:layout_toEndOf="@+id/button3"
+                        android:background="@android:color/transparent"
+                        android:text="FİRMALAR"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="13sp"
+                        tools:gravity="left|center_vertical" />
+
+                    <Button
+                        android:id="@+id/button7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBaseline="@+id/button8"
+                        android:layout_alignBottom="@+id/button8"
+                        android:layout_toStartOf="@+id/button6"
+                        android:background="@android:color/transparent"
+                        android:text="İLETİŞİM"
+                        android:textColor="@android:color/background_light"
+                        tools:gravity="left|center_vertical" />
+
+                    <Button
+                        android:id="@+id/button8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignStart="@+id/button2"
+                        android:layout_below="@+id/button2"
+                        android:background="@android:color/transparent"
+                        android:text="ADAYLAR"
+                        android:textColor="@android:color/background_light"
+                        tools:gravity="left|center_vertical" />
+
+                    <Button
+                        android:id="@+id/button2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentTop="true"
+                        android:layout_toStartOf="@+id/button7"
+                        android:background="@android:color/transparent"
+                        android:text="Anasayfa"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14dp"
+                        tools:gravity="left|center_vertical" />
+
+                    <Button
+                        android:id="@+id/button10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/button7"
+                        android:layout_toEndOf="@+id/button3"
+                        android:background="@android:color/transparent"
+                        android:text="KAYIT OL"
+                        android:textColor="@android:color/background_light"
+                        tools:gravity="left|center_vertical" />
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button10"
+                        android:layout_below="@+id/button7"
+                        android:layout_toStartOf="@+id/button6"
+                        app:srcCompat="@android:drawable/ic_media_play" />
+
+                    <Button
+                        android:id="@+id/button9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/imageView6"
+                        android:layout_marginEnd="18dp"
+                        android:layout_toStartOf="@+id/imageView6"
+                        android:background="@android:color/transparent"
+                        android:text="GİRİŞ YAP"
+                        android:textColor="@android:color/background_light"
+                        tools:gravity="left|center_vertical" />
+
+                    <ImageView
+                        android:id="@+id/imageView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignBottom="@+id/button9"
+                        android:layout_alignTop="@+id/button9"
+                        android:layout_toStartOf="@+id/button9"
+                        app:srcCompat="@android:drawable/ic_lock_idle_lock" />
+
+                    <Button
+                        android:id="@+id/button11"
+                        android:layout_width="80dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginTop="18dp"
+                        android:background="@drawable/logomin"
+                        tools:gravity="bottom|left|center_vertical" />
+                    <Button
+
+
+                        android:id="@+id/button6"
+                        android:layout_width="105dp"
+                        android:layout_height="50dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_below="@+id/button3"
+                        android:background="@drawable/firmabuton"
+                        android:text="+FİRMA GİRİŞ"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="13sp"
+                        tools:gravity="left|center_vertical" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1343dp"
+                    android:background="@color/colorAccent">
+
+                    <TextView
+                        android:id="@+id/textView46"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:gravity="bottom|center"
+                        android:text="Kullanıcı Sözleşmesi"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView47"
+                        android:layout_width="match_parent"
+                        android:layout_height="453dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView46"
+                        android:gravity="center"
+                        android:text="Bu sayfa site ile ilgili genel kuralları ve yasal sorumlulukları içermektedir. Gizlilik sözleşmesi ile bir bütünlük içerisinde olmakla beraber her çeşit kullanıcıyı bağlamaktadır. Bu sebeple kullanıcılar, işleme devam etmeden ve üye olmadan önce bu Kullanıcı sözleşmesi ve gizlilik sözleşmelerini dikkatle okumalıdır. Bu iki sayfada ifade edilen şartlardan herhangi biri uygun değilse stajyurdu.com üyeliğini gerçekleştirmemeniz önemli tavsiye edilir. Üyelik sürecinizi tamamladığınız takdirde bu şartları kabul ettiğiniz ve yasal sorumluluğu yüklenmiş olacaksınız anlamına gelmektedir. Ayrıca stajyurdu.com, tek taraflı olarak, işbu kullanıcı sözleşmesinde sayılan koşullara tamamıyla ya da kısmen uygun olmadığına karar verdiği Üyelik bilgilerini yayınlamayı reddetme ya da yayından kaldırma hakkına sahiptir. Stajyurdu.com, herhangi bir yenileme durumunda güncel kullanım şartlarını sitede yayınlayacaktır ve gerek gördüğü takdirde üyelere iletecektir. Yenilenmiş güncel kullanım şartları, stajyurdu.com'da yayınlandığı andan itibaren geçerli olacaktır. Stajyurdu.com tüm bireysel/kurumsal kullanıcılara açık bir sistemdir ve üyeler bilgileri, sadece sistemin amacına yönelik olarak kullanabilir. Sitede bulunan her türlü bilgi, ilan, resim vb. şeyler stajyurdu.com’a aittir. Habersiz olarak ve yazılı bir izin alınmadan kısmen veya tamamen alınamaz, kopyalanamaz, kullanılamaz, değiştirilemez ve depolanamaz. Bu işlemlerin yazılı izin olmadan alındığının tespiti yapıldığı zaman ilgili kişi veya kişiler hakkında yasal işlem başlatılacaktır. Ayrıca;"
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView60"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView47"
+                        android:gravity="center"
+                        android:text="Yanlış, eksik, fazla, yanıltıcı, ahlak kurallarına aykırı içerik, bilgi, ilan veya ifadelerin siteye kaydedilmesi, Siteye ait özel bilgilere ulaşma ve kullanma amacıyla sitenin güvenliğini tehdit edici herhangi bir aktivitenin gerçekleştirilmesi, Siteye girilen en küçük bilginin bile reklam/pazarlama amacıyla eklenmesi, Yetkisiz kişilerin sitedeki herhangi bir bilgiyi silmesi veya değiştirmesi, Kurumlar/kuruluşlar tarafından ilan yayınlama, özgeçmiş arama gibi özelliklerinin amaç dışı kullanılması, Sitede yer alan bilgilerin kısmen veya tümüyle kopyalanarak farklı amaçlarla kullanılması, Kullanıcı adı ve şifre gibi kullanıcıya ait bilgilerin sitenin amacı dışında kullanımı, paylaşımı yasaktır."
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView61"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView60"
+                        android:gravity="center"
+                        android:text="stajyurdu.com tasarımında ve veri tabanı oluşturulmasında kullanılan ve her hakkı ilgili anlaşmalar gereği stajyurdu.com'a ait olan her türlü tasarımın, yazılımın kopyalanması veya kullanılması kesinlikle yasaktır. Üye, Siteyi kullanırken, Türk Ceza Kanunu, Türk Ticaret Kanunu, Borçlar Kanunu, Fikir ve Sanat Eserleri Kanunu, Marka ve Patent Haklarının Korunması ile ilgili Kanun Hükmünde Kararnameler ve yasal düzenlemeler, hali hazırda yürürlükte olan ilgili her türlü mevzuat hükümleri ile ileride yürürlüğe girecek olan mevzuata ve stajyurdu.com'un Siteye ilişkin olarak yayımlayacağı bildirimlere uymayı kabul eder. Bildirimlere ve yasalara aykırı kullanım sebebiyle doğabilecek hukuki, cezai ve mali her türlü sorumluluk üyelere aittir."
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView62"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView61"
+                        android:gravity="bottom|center"
+                        android:text="Sorumluluklar"
+                        android:textColor="@android:color/background_dark"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/textView63"
+                        android:layout_width="wrap_content"
+                        android:layout_height="302dp"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView62"
+                        android:gravity="center"
+                        android:text="Stajyurdu.com kullanıcılarının bilgilerini takip, kayıt ve kullanım hakkına sahiptir ve gizlilik prensiplerine bağlı kalarak iş ortaklarıyla paylaşabilecektir. Stajyurdu.com sitede yer alan her tür kurum/kuruluş ve üye bilgileri, ilan, haber, makale, sunulan eğitim programı ve diğer materyaller ile ilgili bir sorumluluk kabul etmez. İçeriğinden sorumlu tutulamaz. Özgeçmişlerini sitede bulunduran Üyeler siteye kaydettikleri her türlü bilgiden sorumludurlar. Üyelerin sözleşme ve şartlara aykırı davrandığı takdirde stajyurdu.com yetkili makamlara bildirmek ve üyeliği sonlandırmak hakkına sahiptir. Üye silinen kayıtlarla ilgili herhangi bir hak veya tazminat talebinde bulunamaz ancak stajyurdu.com bu konuda hak talebinde bulunabilecektir. Kullanım Sözleşmesi kullanıcıların, stajyurdu.com'a üyeliğiyle başlayacaktır ve üyeliğin fesih edilmediği sürece geçerli olacaktır. Herhangi bir süreç ve kullanım uyuşmazlıkların çözümünde Elazığ Mahkemeleri ve İcra Daireleri yetkili kılınmıştır."
+                        android:textColor="@android:color/background_dark" />
+
+                    <TextView
+                        android:id="@+id/textView64"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/textView63"
+                        android:gravity="center"
+                        android:text="*Üye olan her tür kullanıcı Kullanım Sözleşmesi'nde yer alan maddelerin tümünü okuduğunu, anladığını, kabul ettiğini ve kendisiyle ilgili olarak verdiği bilgilerin doğruluğunu onayladığını kabul ve taahhüt eder."
+                        android:textColor="@android:color/background_dark"
+                        android:textStyle="bold" />
+                </RelativeLayout>
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="669dp"
+                    android:background="@android:color/holo_blue_dark">
+
+                    <Button
+                        android:id="@+id/button34"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="43dp"
+                        android:background="@drawable/fbb" />
+
+                    <Button
+                        android:id="@+id/button35"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_marginStart="127dp"
+                        android:background="@drawable/twitter" />
+
+                    <Button
+                        android:id="@+id/button36"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_toEndOf="@+id/button16"
+                        android:background="@drawable/imag" />
+
+                    <Button
+                        android:id="@+id/button37"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignTop="@+id/button34"
+                        android:layout_marginEnd="32dp"
+                        android:background="@drawable/s" />
+                    <Button
+                        android:layout_height="45dp"
+                        android:id="@+id/button13"
+                        android:background="@drawable/logomin"
+                        android:gravity="bottom|left|center_vertical"
+                        android:layout_width="80dp"
+                        android:layout_marginTop="9dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignParentStart="true" />
+
+                    <Button
+                        android:text="-Staj Ara"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button16"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:layout_below="@+id/button15"
+                        android:layout_alignStart="@+id/button15" />
+
+                    <Button
+                        android:text="-Tüm İlanları Gör"
+                        android:id="@+id/button17"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_below="@+id/button16"
+                        android:layout_alignStart="@+id/button16" />
+
+                    <Button
+                        android:text="-Hesabım"
+                        android:layout_width="120dp"
+                        android:id="@+id/button21"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/button20"
+                        android:layout_alignStart="@+id/button20" />
+
+                    <Button
+                        android:text="-Yardım"
+                        android:layout_width="120dp"
+                        android:id="@+id/button22"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/button21"
+                        android:layout_alignStart="@+id/button21" />
+
+                    <Button
+                        android:text="-Kullanıcı Sözleşmesi"
+                        android:layout_width="120dp"
+                        android:id="@+id/button23"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/button22"
+                        android:layout_alignStart="@+id/button22" />
+
+                    <Button
+                        android:text="-Gizlilik Sözleşmesi"
+                        android:layout_width="120dp"
+                        android:id="@+id/button24"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/button23"
+                        android:layout_alignStart="@+id/button23" />
+
+                    <Button
+                        android:text="-Firma Hakkında"
+                        android:layout_width="120dp"
+                        android:id="@+id/button20"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/button17"
+                        android:layout_alignStart="@+id/button17" />
+
+                    <Button
+                        android:text="-İletişim"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button18"
+                        android:background="@android:color/transparent"
+                        android:gravity="left|center_vertical"
+                        android:textSize="12sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:layout_below="@+id/button24"
+                        android:layout_alignStart="@+id/button24" />
+
+                    <Button
+                        android:text="-Hata Ya Da Sorun Bildir"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button19"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_below="@+id/button18"
+                        android:layout_alignStart="@+id/button18" />
+
+                    <Button
+                        android:text="-İstanbul İş İlanları"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button25"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_alignTop="@+id/button15"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="12dp" />
+
+                    <Button
+                        android:text="-Elazığ İş İlanları"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button26"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_below="@+id/button25"
+                        android:layout_alignStart="@+id/button25" />
+
+                    <Button
+                        android:text="-İstanbul Staj İlanları"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button27"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_below="@+id/button26"
+                        android:layout_alignStart="@+id/button26" />
+
+                    <Button
+                        android:text="-Elazığ Staj İlanları"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button28"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_alignBaseline="@+id/button20"
+                        android:layout_alignBottom="@+id/button20"
+                        android:layout_alignStart="@+id/button27" />
+
+                    <Button
+                        android:text="-Ankara İlanları"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button29"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_below="@+id/button28"
+                        android:layout_alignStart="@+id/button28" />
+
+                    <Button
+                        android:text="-İzmir İlanları"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/button30"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_below="@+id/button29"
+                        android:layout_alignStart="@+id/button29" />
+
+                    <TextView
+                        android:text="Staj Yurdu"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/textView21"
+                        android:gravity="left|center_vertical|center"
+                        android:textColor="@android:color/background_light"
+                        android:textSize="14sp"
+                        android:layout_below="@+id/button13"
+                        android:layout_alignStart="@+id/button15"
+                        android:layout_marginTop="25dp" />
+
+                    <TextView
+                        android:text="İş Ara"
+                        android:layout_width="120dp"
+                        android:layout_height="40dp"
+                        android:id="@+id/textView22"
+                        android:gravity="left|fill_vertical"
+                        android:textColor="@android:color/background_light"
+                        android:layout_alignBottom="@+id/textView21"
+                        android:layout_alignStart="@+id/button25"
+                        android:layout_alignTop="@+id/textView21" />
+
+                    <Button
+                        android:text="-Anasayfa"
+                        android:layout_width="120dp"
+                        android:id="@+id/button15"
+                        android:gravity="left|center_vertical"
+                        android:textColor="@android:color/darker_gray"
+                        android:textSize="12sp"
+                        android:background="@android:color/transparent"
+                        android:layout_height="40dp"
+                        android:layout_below="@+id/textView21"
+                        android:layout_toStartOf="@+id/button25"
+                        android:layout_marginEnd="16dp" />
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/button31"
+                        android:background="@drawable/dww"
+                        android:layout_alignStart="@+id/button30"
+                        android:layout_alignBottom="@+id/button14" />
+
+                    <Button
+                        android:layout_width="120dp"
+                        android:layout_height="80dp"
+                        android:id="@+id/button14"
+                        android:background="@drawable/dw"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/button19"
+                        android:layout_marginBottom="31dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="54dp"
+                    android:background="@color/colorPrimaryDark">
+
+                    <TextView
+                        android:text="© 2018 Stajyurdu. All rights reserved."
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/textView5"
+                        android:layout_centerVertical="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="65dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>
+
+
+</android.support.constraint.ConstraintLayout>
